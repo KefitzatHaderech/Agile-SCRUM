@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>SCRUM Team</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../01_Waterfall-vs-Agile/index.html"><strong aria-hidden="true">1.</strong> Waterfall vs Agile</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../01_Waterfall-vs-Agile/01_Introduction.html"><strong aria-hidden="true">1.1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="../01_Waterfall-vs-Agile/02_Build-Minimum-Viable-Product.html"><strong aria-hidden="true">1.2.</strong> Build minimum viable product</a></li></ol></li><li class="chapter-item expanded "><a href="../02_Agile-Manifesto/index.html"><strong aria-hidden="true">2.</strong> Agile Manifesto</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../02_Agile-Manifesto/01_Overview.html"><strong aria-hidden="true">2.1.</strong> Overview</a></li><li class="chapter-item expanded "><a href="../02_Agile-Manifesto/02_Values.html"><strong aria-hidden="true">2.2.</strong> Values</a></li><li class="chapter-item expanded "><a href="../02_Agile-Manifesto/03_Principles.html"><strong aria-hidden="true">2.3.</strong> Principles</a></li></ol></li><li class="chapter-item expanded "><a href="../03_SCRUM/index.html"><strong aria-hidden="true">3.</strong> SCRUM Introduction</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../03_SCRUM/01_Definition.html"><strong aria-hidden="true">3.1.</strong> Definition</a></li><li class="chapter-item expanded "><a href="../03_SCRUM/02_Framework.html"><strong aria-hidden="true">3.2.</strong> Framework</a></li><li class="chapter-item expanded "><a href="../03_SCRUM/03_Artifacts-Commitments.html"><strong aria-hidden="true">3.3.</strong> Artifacts & Commitments</a></li></ol></li><li class="chapter-item expanded "><a href="../04_SCRUM-Theory/index.html"><strong aria-hidden="true">4.</strong> SCRUM Theory</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../04_SCRUM-Theory/01_Theory.html"><strong aria-hidden="true">4.1.</strong> Theory</a></li><li class="chapter-item expanded "><a href="../04_SCRUM-Theory/02_Pillars.html"><strong aria-hidden="true">4.2.</strong> Pillars</a></li></ol></li><li class="chapter-item expanded "><a href="../05_SCRUM-Values/index.html"><strong aria-hidden="true">5.</strong> SCRUM Values</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../05_SCRUM-Values/01_Values.html"><strong aria-hidden="true">5.1.</strong> Values</a></li></ol></li><li class="chapter-item expanded "><a href="../06_SCRUM-Team/index.html" class="active"><strong aria-hidden="true">6.</strong> SCRUM Team</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../06_SCRUM-Team/01_Overview.html"><strong aria-hidden="true">6.1.</strong> Overview</a></li><li class="chapter-item expanded "><a href="../06_SCRUM-Team/02_Developers.html"><strong aria-hidden="true">6.2.</strong> Developers</a></li><li class="chapter-item expanded "><a href="../06_SCRUM-Team/03_Product-Owner.html"><strong aria-hidden="true">6.3.</strong> Product Owner</a></li><li class="chapter-item expanded "><a href="../06_SCRUM-Team/04_SCRUM-Master.html"><strong aria-hidden="true">6.4.</strong> SCRUM Master</a></li></ol></li><li class="chapter-item expanded "><a href="../07_Artifacts-Commitments/index.html"><strong aria-hidden="true">7.</strong> SCRUM Artifacts and Commitments</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../07_Artifacts-Commitments/01_Backlog.html"><strong aria-hidden="true">7.1.</strong> Product Backlog</a></li><li class="chapter-item expanded "><a href="../07_Artifacts-Commitments/02_Product-Backlog.html"><strong aria-hidden="true">7.2.</strong> Product Goal</a></li><li class="chapter-item expanded "><a href="../07_Artifacts-Commitments/03_Spring-Backlog.html"><strong aria-hidden="true">7.3.</strong> Sprint Backlog</a></li><li class="chapter-item expanded "><a href="../07_Artifacts-Commitments/04_Sprint-Goal.html"><strong aria-hidden="true">7.4.</strong> Sprint Goal</a></li></ol></li><li class="chapter-item expanded "><a href="../08_Sprint/index.html"><strong aria-hidden="true">8.</strong> Sprint</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../08_Sprint/01_Definition.html"><strong aria-hidden="true">8.1.</strong> Definition</a></li><li class="chapter-item expanded "><a href="../08_Sprint/02_Sprint-Activities.html"><strong aria-hidden="true">8.2.</strong> Sprint acts as a container for other Scrum events</a></li><li class="chapter-item expanded "><a href="../08_Sprint/03_Key-Aspects.html"><strong aria-hidden="true">8.3.</strong> Key aspects of Scrum events</a></li></ol></li><li class="chapter-item expanded "><a href="../09_SAFe/index.html"><strong aria-hidden="true">9.</strong> Scaled Agile Framework</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../09_SAFe/01_Overview.html"><strong aria-hidden="true">9.1.</strong> SAFe Overview</a></li><li class="chapter-item expanded "><a href="../09_SAFe/02_SAFe.html"><strong aria-hidden="true">9.2.</strong> Navigating Scaled Agile Framework Big Picture</a></li><li class="chapter-item expanded "><a href="../09_SAFe/03_Principles.html"><strong aria-hidden="true">9.3.</strong> SAFe Lean-Agile Principles</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.4.</strong> Use of Scrum Framework at Team Level in SAFe</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.5.</strong> Agile Team in SAFe & its Responsibilities</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.6.</strong> Scrum Master in SAFe & its Responsibilities</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.7.</strong> Product Owner's Responsibilities in SAFe</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.8.</strong> Product Management Responsibilities in SAFe</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.9.</strong> Definition Agile Release Train (ART)</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.10.</strong> SAFe Agile Team Level Events</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.11.</strong> SAFe ART Level Events</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.12.</strong> Definition Planning Interval (PI) in SAFe</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.13.</strong> Understanding PI Planning in SAFe</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.14.</strong> Benefits of PI Planning in SAFe</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.15.</strong> PI Planning Agenda</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.16.</strong> SAFe Requirements</div></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="scrum-team"><a class="header" href="#scrum-team">SCRUM Team</a></h1>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../05_SCRUM-Values/01_Values.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../06_SCRUM-Team/01_Overview.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../05_SCRUM-Values/01_Values.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../06_SCRUM-Team/01_Overview.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
