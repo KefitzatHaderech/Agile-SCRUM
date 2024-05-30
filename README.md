@@ -21,7 +21,6 @@ This repository contains detailed information and insights about various aspects
   - [Usage](#usage)
   - [Contribution](#contribution)
 
-
 ## Getting Started
 
 ### Prerequisites
@@ -60,36 +59,43 @@ To build and view the notes locally, you will need to have the following install
 
     Open your browser and navigate to `http://localhost:3000` to view the book.
 
-
 ## Content Overview
 
 ### 1. Waterfall vs Agile
+
 This section provides a comparison between traditional Waterfall project management and Agile methodologies. It highlights the key differences, benefits, and drawbacks of each approach.
 
 ### 2. Agile Manifesto
+
 Here, you will find the core values and principles of the Agile Manifesto, which serves as the foundation for Agile methodologies.
 
 ### 3. SCRUM Introduction
+
 An introduction to SCRUM, one of the most popular Agile frameworks. This section covers the basics and the history of SCRUM.
 
 ### 4. SCRUM Theory
+
 This part delves into the theoretical aspects of SCRUM, including its empirical process control theory, and the pillars of transparency, inspection, and adaptation.
 
 ### 5. SCRUM Values
+
 Learn about the five core values of SCRUM: Commitment, Courage, Focus, Openness, and Respect, and how they guide the behavior of SCRUM teams.
 
 ### 6. The SCRUM Team
+
 This section describes the roles within a SCRUM team, including the Product Owner, SCRUM Master, and Development Team, and their responsibilities.
 
 ### 7. Scrum Artifacts and Commitments
+
 An overview of SCRUM artifacts such as the Product Backlog, Sprint Backlog, and Increment. It also covers commitments like the Definition of Done.
 
 ### 8. The Sprint
+
 Detailed information about Sprints, including Sprint Planning, Daily SCRUM, Sprint Review, and Sprint Retrospective.
 
 ### 9. Scaled Agile Framework (SAFe)
-An introduction to SAFe, a framework for scaling Agile practices across large organizations.
 
+An introduction to SAFe, a framework for scaling Agile practices across large organizations.
 
 ## Usage
 
