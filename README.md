@@ -4,20 +4,20 @@ This repository contains detailed information and insights about various aspects
 
 **Table of Contents**
 
-- [Agile and SCRUM Notes](#agile-and-scrum-notes)
+- [Agile and SCRUM Notes]()
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
   - [Content Overview](#content-overview)
-    - [1. Waterfall vs Agile](#1-waterfall-vs-agile)
-    - [2. Agile Manifesto](#2-agile-manifesto)
-    - [3. SCRUM Introduction](#3-scrum-introduction)
-    - [4. SCRUM Theory](#4-scrum-theory)
-    - [5. SCRUM Values](#5-scrum-values)
-    - [6. The SCRUM Team](#6-the-scrum-team)
-    - [7. Scrum Artifacts and Commitments](#7-scrum-artifacts-and-commitments)
-    - [8. The Sprint](#8-the-sprint)
-    - [9. Scaled Agile Framework (SAFe)](#9-scaled-agile-framework-safe)
+    - [1. Waterfall vs Agile](./mdBook/src/01_Waterfall-vs-Agile/README.md)
+    - [2. Agile Manifesto](./mdBook/src/02_Agile-Manifesto/README.md)
+    - [3. SCRUM: Introduction](./mdBook/src/03_SCRUM/README.md)
+    - [4. SCRUM: Theory](./mdBook/src/04_SCRUM-Theory/README.md)
+    - [5. SCRUM: Values](./mdBook/src/05_SCRUM-Values)
+    - [6. SCRUM: Team](./mdBook/src/06_SCRUM-Team/README.md)
+    - [7. SCRUM: Artifacts and Commitments](./mdBook/src/07_Artifacts-Commitments/README.md)
+    - [8. SCRUM: Sprint](./mdBook/src/08_Sprint/README.md)
+    - [9. SAFe](./mdBook/src/09_SAFe/README.md)
   - [Usage](#usage)
   - [Contribution](#contribution)
 
@@ -63,43 +63,47 @@ To build and view the notes locally, you will need to have the following install
 
 ### 1. Waterfall vs Agile
 
-This section provides a comparison between traditional Waterfall project management and Agile methodologies. It highlights the key differences, benefits, and drawbacks of each approach.
+- This section provides a comparison between traditional Waterfall project management and Agile methodologies.
+- It highlights the key differences, benefits, and drawbacks of each approach.
 
 ### 2. Agile Manifesto
 
-Here, you will find the core values and principles of the Agile Manifesto, which serves as the foundation for Agile methodologies.
+- Here, you will find the core values and principles of the Agile Manifesto, which serves as the foundation for Agile methodologies.
 
-### 3. SCRUM Introduction
+### 3. SCRUM: Introduction
 
-An introduction to SCRUM, one of the most popular Agile frameworks. This section covers the basics and the history of SCRUM.
+- An introduction to SCRUM, one of the most popular Agile frameworks.
+- This section covers the basics and the history of SCRUM.
 
-### 4. SCRUM Theory
+### 4. SCRUM: Theory
 
-This part delves into the theoretical aspects of SCRUM, including its empirical process control theory, and the pillars of transparency, inspection, and adaptation.
+- This part delves into the theoretical aspects of SCRUM, including its empirical process control theory, and the pillars of transparency, inspection, and adaptation.
 
-### 5. SCRUM Values
+### 5. SCRUM: Values
 
-Learn about the five core values of SCRUM: Commitment, Courage, Focus, Openness, and Respect, and how they guide the behavior of SCRUM teams.
+- Learn about the five core values of SCRUM: Commitment, Courage, Focus, Openness, and Respect, and how they guide the behavior of SCRUM teams.
 
-### 6. The SCRUM Team
+### 6. SCRUM: Team
 
-This section describes the roles within a SCRUM team, including the Product Owner, SCRUM Master, and Development Team, and their responsibilities.
+- This section describes the roles within a SCRUM team, including the Product Owner, SCRUM Master, and Development Team, and their responsibilities.
 
-### 7. Scrum Artifacts and Commitments
+### 7. SCRUM: Artifacts and Commitments
 
-An overview of SCRUM artifacts such as the Product Backlog, Sprint Backlog, and Increment. It also covers commitments like the Definition of Done.
+- An overview of SCRUM artifacts such as the Product Backlog, Sprint Backlog, and Increment.
+- It also covers commitments like the Definition of Done.
 
-### 8. The Sprint
+### 8. SCRUM: Sprint
 
-Detailed information about Sprints, including Sprint Planning, Daily SCRUM, Sprint Review, and Sprint Retrospective.
+- Detailed information about Sprints, including Sprint Planning, Daily SCRUM, Sprint Review, and Sprint Retrospective.
 
-### 9. Scaled Agile Framework (SAFe)
+### 9. SAFe
 
-An introduction to SAFe, a framework for scaling Agile practices across large organizations.
+- An introduction to SAFe, a framework for scaling Agile practices across large organizations.
 
 ## Usage
 
-These notes are intended for anyone interested in learning about Agile and SCRUM methodologies, from beginners to advanced practitioners. The structure is designed to provide a logical flow of information, making it easy to follow and understand.
+- These notes are intended for anyone interested in learning about Agile and SCRUM methodologies, from beginners to advanced practitioners.
+- The structure is designed to provide a logical flow of information, making it easy to follow and understand.
 
 ## Contribution
 

@@ -1,4 +1,4 @@
-# Agile Values: A Comprehensive Tutorial
+# Agile Values
 
 The Agile Manifesto, formulated in 2001 by a group of 17 software developers, was a response to the frustrations experienced with traditional software development methodologies, particularly the Waterfall model. This manifesto outlines four core values and twelve principles designed to foster an Agile mindset, which emphasizes flexibility, collaboration, and customer satisfaction. This tutorial will critically examine the four Agile values, contrasting them with the Waterfall approach, and highlighting how they address specific issues inherent in traditional methodologies.
 
