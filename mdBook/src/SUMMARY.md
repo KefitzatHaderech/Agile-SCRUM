@@ -41,10 +41,9 @@
    8. [Product Management Responsibilities in SAFe](./09_SAFe/08_PM-SAFe.md)
    9. [Definition Agile Release Train (ART)](./09_SAFe/09_ART.md)
    10. [SAFe Agile Team Level Events](./09_SAFe/10_SAFe-Agile-Team-Level-Events.md)
-   11. [SAFe ART Level Events](./09_SAFe/11_SAFe-ART.md)
+   11. [SAFe ART Level Events](./09_SAFe/11_SAFe-ART-Level-Events.md)
    12. [Definition Planning Interval (PI) in SAFe](./09_SAFe/12_Planning-Interval.md)
    13. [Understanding PI Planning in SAFe](./09_SAFe/13_Understanding-PI.md)
    14. [Benefits of PI Planning in SAFe](./09_SAFe/14_Benefits-PI-Planning.md)
    15. [PI Planning Agenda](./09_SAFe/15_PI-Planning-Agenda.md)
-   16. [SAFe Requirements](./09_SAFe/16_Requierements.md)
-     
+   16. [SAFe Requirements](./09_SAFe/16_Requirements.md)
