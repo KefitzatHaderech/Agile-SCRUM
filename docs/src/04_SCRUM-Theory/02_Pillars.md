@@ -1,4 +1,4 @@
-# Scrum Pillars: Transparency, Inspection, and Adaptation
+# Scrum Pillars
 
 Scrum is a framework that stands on three fundamental pillars: Transparency, Inspection, and Adaptation. These pillars are essential to ensure effective team collaboration and continuous improvement within the Scrum framework. In this tutorial, we will explore these pillars in detail, understand their significance, and examine how they are implemented in Scrum practices.
 

@@ -1,4 +1,4 @@
-# Understanding Scrum Accountabilities and Team Dynamics
+# Scrum Accountabilities and Team Dynamics
 
 Scrum is an agile framework designed to help teams work together more effectively and deliver valuable products incrementally. The Scrum framework defines three primary roles, known as accountabilities, within a Scrum team: the Developer, the Product Owner, and the Scrum Master. Each role has distinct responsibilities that contribute to the team's overall success.
 
