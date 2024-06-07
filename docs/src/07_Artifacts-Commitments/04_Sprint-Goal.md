@@ -9,6 +9,7 @@ The sprint goal is a concise, overarching objective for a sprint. It answers the
 ## Components of the Sprint Backlog
 
 The sprint backlog comprises several elements, including:
+
 1. **Sprint Goal:** The primary objective of the sprint.
 2. **Selected PBIs:** Specific tasks and features to be developed during the sprint.
 3. **Plan for Delivering the PBIs:** Detailed steps the team will take to achieve the sprint goal.
@@ -18,6 +19,7 @@ The sprint goal is pivotal as it ties all these elements together, providing con
 ## The Role of the Sprint Goal
 
 The sprint goal serves multiple functions:
+
 1. **Guidance:** It directs the development team by explaining why the sprint is being undertaken and what it aims to achieve.
 2. **Focus:** It helps the team concentrate their efforts on the tasks that contribute directly to achieving the sprint goal.
 3. **Flexibility:** It allows the team to adapt and modify PBIs as they gain new insights during the sprint, provided these changes do not deviate from the sprint goal.
