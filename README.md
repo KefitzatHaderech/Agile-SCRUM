@@ -1,4 +1,4 @@
-# Agile and SCRUM Notes
+# Agile - SCRUM - SAFe Notes
 
 This repository contains detailed information and insights about various aspects of Agile practices, specifically focusing on SCRUM. These notes are created with mdBook and organized into a comprehensive guide for easy navigation.
 
